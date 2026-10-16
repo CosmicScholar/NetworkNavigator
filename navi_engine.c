@@ -399,7 +399,7 @@ uint16_t subconscious_classify_dhatu(const char *word) {
     if (!strcmp(word, "are") || !strcmp(word, "estas") || !strcmp(word, "esta") || !strcmp(word, "allez")) {
         return DHATU_BEING;
     }
-    if (!strcmp(word, "you") || !strcmp(word, "llamo") || !strcmp(word, "hector") || !strcmp(word, "gamez")) {
+    if (!strcmp(word, "you") || !strcmp(word, "llamo") || !strcmp(word, "johnr") || !strcmp(word, "doe")) {
         return DHATU_IDENTITY;
     }
     if (!strcmp(word, "status") || !strcmp(word, "compile") || !strcmp(word, "memory")) {
@@ -622,12 +622,12 @@ static uint32_t navi_load_language_file(NaviTriePool *pool, const char *filepath
 static void navi_compile_seed_sentences(NaviTriePool *pool) {
     const struct { const char *sentence; int lang_id; } corpora[] = {
         {"hello how are you doing today",                  LANG_ENG},
-        {"greetings sir gamez network navigator online",   LANG_ENG},
-        {"salutations sir gamez network navigator online", LANG_ENG},
+        {"greetings sir network navigator online",   LANG_ENG},
+        {"salutations sir network navigator online", LANG_ENG},
         {"how are you operating at peak efficiency",       LANG_ENG},
         {"compile phonetic substrate into memory",         LANG_ENG},
         {"hola como estas mi amigo",                       LANG_SPA},
-        {"hola me llamo hector",                           LANG_SPA},
+        {"hola me llamo john",                           LANG_SPA},
         {"buenos dias como te va",                         LANG_SPA},
         {"bonjour comment allez vous",                     LANG_FRA},
         {"ni hao wo shi wangluo linghangyuan",             LANG_CMN},
