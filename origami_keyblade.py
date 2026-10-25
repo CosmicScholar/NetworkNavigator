@@ -956,3 +956,15 @@ def kernel_fn(data: dict, state: dict) -> torch.Tensor:
     )
 
     return out
+
+
+### there is some x poster recently said something about how he reversed engineered
+### the exact satoshi pattern or something. people should ask why, and what he knows, specially,
+### if coins are being stolen. ideas dont come out of nowhere, spying and stealing is dumb,
+### specially, when they are statements made by morons about their Quantum error rate or w.e
+### jargon their using just to burn money on coke and strippers, im done with it.
+### like we are all going down this path and the elites are acting like morons with zero
+### awareness, and my shadow wants to see them fail, even at my detriment.
+### so i got a lot of "issues" to deal with if im to take this seriously.
+### also stop complaining bout being dosed, you live on a planet homie, act like it
+### the US gov fugged up dawg and its gonna get worse with the ego that billionaries carry.
